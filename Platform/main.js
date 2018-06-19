@@ -53,4 +53,22 @@ function findmax() {
 // Given an array with multiple values (e.g. [1,3,5,7,20]), write a program that prints the average of the values in the array.
 function findaverage() {
     var ar = [1, 3, 5, 7, 20];
+    var sum = 0;
+    for (var a = 0; a < ar.length; a++) {
+        sum += ar[a];
+    }
+    console.log(sum/ar.length);
 }
+// findaverage();
+
+// Write a program that creates an array 'Y' that contains all the odd numbers between 1 to 255. When the program is done, 'y' should have the value of [1, 3, 5, 7, ... 255].
+function oddarray() {
+    var y = [];
+    for (var a = 0; a < 255; a++) {
+        if (a % 2 == 1) {
+            y.push(a)
+        }
+    }
+    console.log(y);
+}
+// oddarray();
