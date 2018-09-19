@@ -1,0 +1,1 @@
+https://www.reddit.com/r/learnprogramming/comments/97kobv/i_would_like_to_share_25_programming_puzzles_and/?st=jm9qgf73&sh=9772fb13
